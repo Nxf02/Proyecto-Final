@@ -39,13 +39,3 @@ Brindar oportunidades de aprendizaje y crecimiento profesional a jóvenes sin ex
 	•	Backend: (puedes agregar si usan algo como Node.js, PHP, etc.)
 	•	Base de datos: MySQL / Firebase / MongoDB (dependiendo de lo que usen)
 	•	Control de versiones: Git y GitHub
-
-👥 Equipo de Desarrollo
-	•	Nombres de los integrantes del grupo (pueden agregarse aquí).
-	•	Rol de cada miembro: diseñador, programador, documentador, etc.
-
-🚀 Futuras Mejoras
-	•	Integrar videollamadas entre mentores y aprendices.
-	•	Crear un sistema de insignias y logros.
-	•	Implementar inteligencia artificial para mejorar las recomendaciones de mentores.
-	•	Añadir soporte multilingüe.
