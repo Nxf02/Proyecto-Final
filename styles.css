@@ -524,4 +524,77 @@ a {
     .contact-form-box {
         max-width: 100%; /* Ocupa todo el ancho disponible */
     }
+
+}
+
+/* ======================================= */
+/* ESTILOS ESPECÍFICOS: SECCIÓN NOSOTROS (MVV) */
+/* ======================================= */
+
+/* Contenedor general de la sección (Asegura el fondo gris claro) */
+#nosotros {
+    /* light-bg debe ser un gris claro para diferenciarlo del hero o de otras secciones blancas */
+    background-color: var(--color-secondary); /* E.g., #f4f4f4 */
+    padding: 80px 5%;
+}
+
+/* Título de la sección */
+#nosotros .section-title {
+    color: var(--color-primary); /* Azul corporativo */
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+/* Contenedor de las tarjetas (Misión, Visión, Quiénes Somos) */
+#nosotros .cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; /* Mantiene la responsividad */
+}
+
+/* Estilo individual de las tarjetas (Misión, Visión, Quiénes Somos) */
+#nosotros .card {
+    background-color: white; /* Las tarjetas deben ser blancas para destacar sobre el fondo gris */
+    padding: 35px 25px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada para dar profundidad */
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
+    text-align: left;
+    transition: transform 0.3s;
+    border-top: 5px solid var(--color-accent); /* Borde superior de acento para estilo */
+}
+
+#nosotros .card:hover {
+    transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Título de cada tarjeta (Misión, Visión, Quiénes Somos) */
+#nosotros .card h3 {
+    color: var(--color-accent); /* Verde/Turquesa para los encabezados */
+    font-size: 1.6em;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Párrafo de contenido */
+#nosotros .card p {
+    color: var(--color-text);
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* Media Query para asegurar la estética en móvil (RNF3) */
+@media (max-width: 768px) {
+    #nosotros .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    #nosotros .card {
+        max-width: 90%;
+    }
 }
