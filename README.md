@@ -33,9 +33,3 @@ Brindar oportunidades de aprendizaje y crecimiento profesional a jóvenes sin ex
 	•	Chat interno: para comunicación directa entre mentor y aprendiz.
 	•	Seguimiento de progreso: los mentores pueden evaluar y guiar a los jóvenes paso a paso.
 	•	Recursos educativos: artículos, cursos y consejos sobre el mundo laboral.
-
-🛠️ Tecnologías Utilizadas
-	•	Frontend: HTML5, CSS3, JavaScript
-	•	Backend: (puedes agregar si usan algo como Node.js, PHP, etc.)
-	•	Base de datos: MySQL / Firebase / MongoDB (dependiendo de lo que usen)
-	•	Control de versiones: Git y GitHub
