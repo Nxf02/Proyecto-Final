@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto y Propuesta de Proyectos | Conecta Talento</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="imagenes/ElevateMe.jpeg" type="image/png">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo-container">
+            <img src="imagenes/ElevateMe.jpeg" alt="Logo de Conecta Talento" class="logo">
+            <h1>ElevateMe</h1>
+        </div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link">Inicio</a></li>
+                <li><a href="proyectos.html" class="nav-link">Micro-Proyectos</a></li>
+                <li><a href="#" class="nav-link active">Contacto</a></li>
+                <li><a href="#" class="nav-link cta-button-nav active">¡Regístrate Ya!</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-main">
+        <section class="section hero-page dark-bg">
+            <h1 class="page-title" style="color: white;">¿Quieres Proponer un Proyecto o Contactarnos?</h1>
+            <p class="subtitle" style="color: #ccc;">Usa la opción que corresponda a tu necesidad. Nuestro equipo te contactará para completar el proceso.</p>
+        </section>
+
+        <section id="contact-forms" class="section">
+            <div class="forms-container">
+                
+                <div class="contact-form-box">
+                    <h2>1. Registro General de Usuario (RF1)</h2>
+                    <p>Para jóvenes (Aprendices) o profesionales que solo desean ofrecer **mentoría o revisión de CV** (RF4).</p>
+                    <form action="mailto:registro@conectatalento.com" method="post" enctype="text/plain" class="contact-form small-form">
+                        <label for="reg_nombre">Nombre Completo:</label>
+                        <input type="text" id="reg_nombre" name="nombre" required>
+                        <label for="reg_email">Correo Electrónico:</label>
+                        <input type="email" id="reg_email" name="email" required>
+                        <label for="reg_rol">Soy:</label>
+                        <select id="reg_rol" name="rol" required>
+                            <option value="">Selecciona tu Rol</option>
+                            <option value="joven">Joven/Aprendiz</option>
+                            <option value="mentor">Profesional/Mentor</option>
+                        </select>
+                         <label for="reg_area">Área de Interés/Experiencia:</label>
+                        <input type="text" id="reg_area" name="area">
+                        <button type="submit" class="cta-button secondary">Enviar Solicitud</button>
+                    </form>
+                </div>
+                
+                <div class="contact-form-box highlight-box">
+                    <h2>2. Proponer Micro-Proyecto (RF10)</h2>
+                    <p>Para empresas o profesionales que desean publicar una tarea específica de micro-voluntariado (RF2).</p>
+                    <form action="mailto:proyectos@conectatalento.com" method="post" enctype="text/plain" class="contact-form small-form">
+                        <label for="pro_nombre">Nombre del Profesional:</label>
+                        <input type="text" id="pro_nombre" name="nombre_profesional" required>
+                        <label for="pro_titulo">Título del Proyecto (Breve):</label>
+                        <input type="text" id="pro_titulo" name="titulo_proyecto" required>
+                        <label for="pro_desc">Descripción y Entregables:</label>
+                        <textarea id="pro_desc" name="descripcion" rows="4" required></textarea>
+                        <label for="pro_esfuerzo">Esfuerzo Estimado del Joven (Horas):</label>
+                        <input type="number" id="pro_esfuerzo" name="esfuerzo_horas" required>
+                        <button type="submit" class="cta-button primary">Enviar Propuesta</button>
+                    </form>
+                </div>
+            </div>
+            <p class="small-text center-text">Nota: Al hacer clic en Enviar, se abrirá tu cliente de correo para completar el envío de la información.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Conecta Talento. Un proyecto con valor social.</p>
+        <div class="footer-links">
+            <a href="#">Términos y Condiciones</a> | 
+            <a href="contacto.html">Contáctanos</a>
+        </div>
+    </footer>
+</body>
+</html>
