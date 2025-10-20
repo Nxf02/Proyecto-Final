@@ -7,7 +7,7 @@ Integrantes del grupo:
 
                                                     Neftaly Adon Rodríguez
                                                     Isaias Enmanuel Aristy
-                                                    Moranny
+                                                    Moranny Rubio 
                                                     Nathaly De Jesus Beltre
                                                     Patricia Caraballo
                                                               
