@@ -17,7 +17,14 @@ body {
     line-height: 1.6;
     color: var(--color-text);
     background-color: white;
+} 
+
+.card:hover,
+.contact-form-box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
 }
+
 a {
     text-decoration: none;
     color: var(--color-primary);
@@ -598,3 +605,4 @@ a {
         max-width: 90%;
     }
 }
+
