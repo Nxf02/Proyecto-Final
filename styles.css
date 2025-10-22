@@ -606,3 +606,42 @@ a {
     }
 }
 
+
+/*esto es para la historia de ElevateMe*/
+
+.historia {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+  background-color: #91b2e346; /* fondo suave de toda la sección */
+}
+
+.historia-box {
+  background: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(12, 56, 128, 0.08);
+  max-width: 850px;
+  padding: 40px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.historia-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgb(7, 73, 148);
+}
+
+.historia-box h2 {
+  font-size: 2rem;
+  color: #0a4496;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.historia-box p {
+  line-height: 1.8;
+  font-size: 1.1rem;
+  color: #333;
+  text-align: justify;
+}
